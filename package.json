@@ -1,0 +1,16 @@
+{
+  "name": "node-tareas-api",
+  "version": "1.0.0",
+  "description": "ejercicio de prueba",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Andres Sandoval",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}

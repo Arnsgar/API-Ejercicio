@@ -1,0 +1,46 @@
+{
+  "estudiantes": [
+    {
+      "id": 12345,
+      "nombre": "Andres Sandoval",
+      "programa": "TPSI",
+      "estado": "No Matriculado"
+    },
+    {
+      "id": 12346,
+      "nombre": "Andres Torres",
+      "programa": "Licenciatura en Ingles",
+      "estado": "Matriculado"
+    },
+    {
+      "id": 12347,
+      "nombre": "Tatiana Jiminez",
+      "programa": "TPSI",
+      "estado": "No Matriculado"
+    },
+    {
+      "id": 12348,
+      "nombre": "Rocio Perez",
+      "programa": "TPSI",
+      "estado": "Matriculado"
+    },
+    {
+      "id": 12349,
+      "nombre": "Danna Sofia Rojas",
+      "programa": "TPSI",
+      "estado": "Matriculado"
+    },
+    {
+      "id": 12350,
+      "nombre": "Jenny Tatiana",
+      "programa": "Informatica",
+      "estado": "Matriculado"
+    },
+    {
+      "id": 12351,
+      "nombre": "Jenny Tatiana",
+      "programa": "Ingenieria Civil",
+      "estado": "Matriculado"
+    }
+  ]
+}

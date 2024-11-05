@@ -1,0 +1,37 @@
+
+GET http://localhost:3000/estudiantes HTTP/1.1
+###
+GET http://localhost:3000/estudiantes/12350 HTTP/1.1
+###
+POST  http://localhost:3000/estudiantes HTTP/1.1
+Content-Type: application/json
+
+{
+      "id": 12350,
+      "nombre": "Jenny Tatiana",
+      "programa": "Ingenieria Civil",
+      "estado": "Matriculado"
+}
+###
+PUT http://localhost:3000/estudiantes/12350 HTTP/1.1
+Content-Type: application/json
+
+{
+      "id": 12350,
+      "nombre": "Jenny Tatiana",
+      "programa": "Informatica",
+      "estado": "Matriculado"
+}
+
+###
+
+PATCH http://localhost:3000/estudiantes/12349 HTTP/1.1
+Content-Type: application/json
+
+{
+      "nombre": "Danna Sofia Rojas"
+    }
+
+###
+
+DELETE http://localhost:3000/estudiantes/12352 HTTP/1.1 
